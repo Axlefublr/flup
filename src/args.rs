@@ -1,8 +1,8 @@
 use clap::Parser;
 
 #[derive(Parser)]
-#[command(author, about, version, long_about = None)]
-#[command(next_line_help = true)]
+#[command(author, version, long_about = None)]
+#[command(about = "A tool that randomly picks between two options you specify")]
 pub struct Args {
 	pub first: String,
 	pub second: String
