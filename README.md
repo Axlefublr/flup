@@ -6,13 +6,20 @@ Don't think twice~~
 
 `twice yes no` will randomly pick between `yes` and `no`.
 
-Specify any two strings to choose from.
+Specify any amount strings to choose from.
 
-## Installation
+`twice shower meditate eat exerice`
 
-Have rust and git installed
+## Install
 
 ```
-cargo install --git https://github.com/Axlefublr/twice.git
-twice heads tails
+cargo install twice
+```
+
+`cargo-binstall` and `cargo-quickinstall` are also supported
+
+## Uninstall
+
+```
+cargo uninstall twice
 ```

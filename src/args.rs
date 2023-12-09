@@ -2,7 +2,7 @@ use clap::Parser;
 
 #[derive(Parser)]
 #[command(author, version, long_about = None)]
-#[command(about = "A tool that randomly picks between two options you specify")]
+#[command(about = "Choose and print a string out of those specified")]
 pub struct Args {
 	pub first: String,
 	pub second: String
