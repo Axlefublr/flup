@@ -1,6 +1,6 @@
 [package]
 name = "twice"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["Axlefublr"]
 license = "MIT"
 description = "Choose and print a string out of those specified"
